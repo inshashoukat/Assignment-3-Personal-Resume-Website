@@ -2,26 +2,58 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+/* app/globals.css */
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #0d120d;
+  color: #e4d2d2;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  background-color: hwb(81 11% 42% / 0.694);
+}
+
+.navbar a {
+  color: rgb(14, 2, 2);
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+h1{
+  color: #c62fb4;
+}
+
+h2{
+  color: #c62fb4
+}
+
+html {
+  scroll-behavior: smooth; /* Enables smooth scrolling */
+}
+
+.spaced-text {
+  line-height: 2; /* Adjust this value as needed */
+  margin-bottom: 10px; /* Optional: add space below each element */
+}
+
+.justified-text {
+  text-align: justify; /* Justifies the text */
+  margin: 0 auto; /* Centers the text block if a width is set */
+  max-width: 600px; /* Optional: sets a max width for better readability */
+}
+
