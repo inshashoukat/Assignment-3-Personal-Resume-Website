@@ -14,7 +14,7 @@ export default function Home() {
 
       {/* Basic Info Section */}
       <section id="basic-info">
-        <h1 className="spaced-text font-bold text-yellow-600"><b>Hi, I'm Insha Shoukat</b></h1>
+        <h1 className="spaced-text font-bold text-yellow-600"><b>Hi, I am Insha Shoukat</b></h1>
         <h2 className="spaced-text font-bold">Aspiring Web Developer</h2>
         <p className="spaced-text">
           I am an aspiring web developer passionate about creating dynamic, user-friendly websites and continuously learning new technologies to enhance my skills.
